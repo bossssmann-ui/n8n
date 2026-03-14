@@ -42,6 +42,24 @@ This starter repository includes two example nodes to learn from:
 
 Browse these examples to understand both approaches, then modify them or create your own.
 
+## What can this starter do and which resources does it use?
+
+If you're asking, “Что ты можешь и какие ресурсы используешь?”, this starter repository helps you:
+
+- Build custom n8n community nodes from a working template
+- Learn from two included examples: a basic code node and a declarative GitHub Issues node
+- Run local development with hot reload using `npm run dev`
+- Lint and build your package with the bundled `@n8n/node-cli`
+- Reuse the included credentials, list search examples, and documentation as a foundation for your own integration
+
+The main resources included in this repository are:
+
+- **Example Node** in [nodes/Example/](nodes/Example/) for a minimal custom `execute` implementation
+- **GitHub Issues Node** in [nodes/GithubIssues/](nodes/GithubIssues/) for a more complete declarative HTTP API integration
+- **Credentials** in [credentials/](credentials/) for authentication examples
+- **CLI tooling** from `@n8n/node-cli` for development, linting, building, and release workflows
+- **Starter documentation** in this README and [README_TEMPLATE.md](README_TEMPLATE.md)
+
 ## Finding Inspiration
 
 Looking for more examples? Check out these resources:
