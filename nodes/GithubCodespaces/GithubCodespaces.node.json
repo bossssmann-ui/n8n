@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-github-codespaces",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Developer Tools"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.github.com/en/codespaces"
+			}
+		]
+	}
+}
